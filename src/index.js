@@ -214,6 +214,6 @@ function mouseWheelZoom({ element, zoomStep = .1 } = {}) {
   }
 }
 
-export {
+module.exports = {
   mouseWheelZoom
 }
